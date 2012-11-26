@@ -1,0 +1,57 @@
+<?php
+#$CUR_LVL = 11;
+#require_once('include.php');
+#require_once('user_tracking_khoofiya.php');
+?>
+<?php
+
+if(isset($_POST['binary'])){
+	$ch=mysql_real_escape_string("Ankush");
+	echo $ch;
+	echo "Hello";
+	/*if(mysql_real_escape_string($_POST['binary'])=="Hello World!"){
+		incrementLevel($_SESSION['username'], $CUR_LVL+1);
+		header("Location: page12.php");
+	}*/
+}
+
+?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type=text/javascript src="scripts/jquery-1.7.0.min.js"></script>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Nightvision by FCT</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="css/default.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+<div id="menu">
+	<ul>
+	<li class="current_page_item"><a href="index.php">Home</a></li>
+	<li><a href="list.php">Ranklist</a></li>
+	<li><a href="../forums">Forums</a></li>
+	<li><a href="rules.php">Rules</a></li>
+	<li><a href="about.php">About Us</a></li>
+	<li><a href="logout.php">Logout</a></li>
+	</ul>
+</div>
+<div id="page" >
+	<div style="/*display: block;*/">
+		Dear programmer, there is no life without binaries! This time they are trying to play with you! :)
+		<br />
+	<!--
+'28/x`Bea/xDNEI00/x00/x00/x00/x$dc/x1e/x@0d/x$5f/xob0/x6f/x81/x00/x00/x00/x00/x00/x69/xbf/x7f/xbe/x000/x00/x00/x00/x\to0b/xE00/x00/x00/x}8e/x00/xfa/x8d/x58/x5a/xeb/x1f/x&00/x00/x00/x00/x00/x"C7c/x6e/x8f/x8b/x00/x00/x30/xfe/x@08c/x2b/x8cb/x4b/x6b/xy/ce/xc9/xj,2a/x`9a/x7a/x50/x4f/xQY9f/x60/x\n11/xdb/x18/x6e/xt5e/xX00/x7c/xp50/x`00/x<f1/x5a/x48/x7b/xfd/x5e/x88/xr61/xaa/x1f/x@j8a/x&5f/xd51/x38/xbe/x00/x9b/x08/x%(8[_ofb/x]ab/xed/xn7be/x5b/x4e/x9c/xsc0/xv-RE70/x09/x<98/xic1f/x1>=4d/xab/xfe/xf7/xeb/xfd/x40/x5a/x3b/x3c/xd8/x!n7d/x9e/x\t:ad/x9a/xdb/xfc/xd9/xUdf/x=jn31/x{2d/xQ&`5f/xf0/x99/xde/x0b/x9f/x80/x7e/xb9/x0b/x8d/x10c/x5a/x1b/x4f/xca/x\\0d/xpb0/xmbd/x68/x6b/xec/xfc/x>b9/xb9/xbf/x47b/x0f/x81/x8_>e31/xOS31/xOS3d/x7a/xHc!j29/x(<5e/xA4e/x39/x%dc/x\rc8/xa1/xb1/x01/x:df/x|fb/xb1/xd8/x6a/xff/x`0f/x1c/x)l0f/xC9f/x5b/xT6Q:4b/x3d/x19/x@"82e/xdb/xV5e/x[ee/x20/xoTK01/x}`71/x4cd/xc0/x\\cc/x20/xbd/x;dd/x6e/xaf/x2<2~?d8/xO7a/x3b/x9b/xcf/x1e/xx({Mov4b/x~7f/xw7d/xdb/x8e/xc39/xj59/x(<08/x\r|51/x6a/xfc/x21/xg#\'7e/x9e/x98/xdb/xz3f/xba/xfa/xce/xf0/x[70/x51/x51/x59/xL5a/xeb/x3c/xd8/xcn7d/xdf/x5a/x3b/x9c/xl2f/xoy7e/xU@fc/xZ{VMae/xa8/xMbRe0/x% ee/x2a/xzfd/x\\81/xfe/x:c0/xd&4e/x\\3c/x4e/x6ab/xk10/xdc/x2a/x2e/x2e/x1d/xcf/x|h8e/x1e/x1f/x0f/xff/xeb/x69/x59/x0f/x81/x8hce/xq8c3c/xj59/x(<a8/x$*20/x7a/x2d/x2b/xdd/xm7b/xbf/x0f/xf1/xfd/x8a/xi))/?5d/x`\'0a/x31/x\t7c/x<fc/xff/xbc/x}fd/x4c/x9b9/xUOe21/xb1/xM941/x20/x#e8/x+5d/xnUeb/x0e/x&5f/xD1b/x70/x6d/x10/xs1d/x1c/x61/xce/xafc/x{,50/xd4c/xf1/xbf/xW+5e/x4d/x9a/xR;:D11e/x5b/xMec/x10/x4e/xy.t;:GNFec/x78/x\nc1/xf0/x6f/x88/xf1/xde/x01/xfb/x?4ac/x[ce/x00/xvN6Mbb/x\\6f/x20/xoVvaa/x1e/xa9/xb8/xdc/x^5d/x39/x{6e/x39/xX49/x38/x\'29/xE39/x,9e/x5d/xcd/x3f/x0a/x7c/x68/x48/xf7/x1a/xsu08/x+cd/x39/xX80/xlcf7/x58/x9f/x9f/x1f/x2e/x7c/xFF68/xfff9/x|9f/x69/xe0/x50/x\rd1/xe8/x\'c0/x~mRE70/xe9/x)Deb/x2e/x10/x_jad/x}{ed/x3c/x0d/x1c/x2f/xd9b/x2f/x2f/x6e/x0c/xff/x08/x68/x68/x6a/xaf/x3c/xa3b/x5e/xfd/xc1/x8c/x9d/xfc/xfc/x0e/x?0a/x21/x5e/xf7/x7f/x*bb/xeb/xbd/xM4d9c/x09/xQe0/xB5d/x^(\rU40/xed/x4f/x28/x0b/x}`71/x060/xv7be/x5d/x4e/xxld4e/x9c/xae/xTfc/x5f/xMmP1a/xm5d/x55b/x<x0f/xc!j29/x(<1c/xA4e/x3d/x7a/xO?LK61/x zl1f/x8r?f1/xb0/xjf1/x5f/xl91/xQcd/xde/x7b/x\rh%-7f/x28/xc1/x58/xaa/xcb/xPa1/xaa/x\tdb/xY50/x`af/x0c/x.`\tK51/x51/x51/xv/ab/x7c/x4c/xLvtb8/x7e/xcc/x1a/xe8/x5c/xaa/xH0a/x3f/x5c/x70/x29/x69/x59/x0f/xce/x9e/x61/x>"k1b/x}cd/xTTPJ[<01/x4e/x-U2e/x08/x5d/xPMfe/xce/x51/x38/xbe/x00/x9b/x08/x1#3d/xdb/x81/x4d/x2d/xbd/x7d/x1a/xC81/xda/xaa/xN0a/x2f/x70/x29/x5f/x8e/xX4d/x2d/x3d/x3d/xdb/x51/x,%3b/x0f/x[5b/xbd/x4e/x50/x51/x}0c/x#29/x29/xj;db/xba/xA7d/xa9/x 69/x#48/xPc3f/xj79/xcd/x2a/x2a/x98/xe1/x`91/x0d/x80/xa8/xfe/x9b/x71/xbc/xde/x2f/xfd/x~YJ00/x00/x60/xfd/xfe/xe9/xbb/x500/x-v9io1b/xf00/x00/x00/x00/x10/x-6f/x1p00/x00/x70/xed/x08/xcfa/x9f/xX7b/xfd/x7e/xX41/xe8/x5b/x89/x00/x00/x00/x00/x40/x6b/xx39/x00/x00/x00/x00/x00/x11/x!9e/xUbb/x*6d/x00/x00/x00/x00/x00/x\\a8/xbb/xeb/xbd/xM4d9c/x09/xR81/x00/x00/x00/x00/x00/xh_/7b/x4b/x3d/xG5b/x8d/x8a/x-d9/x}99/xd9/x7e/xf9/xy7e/xy19/x4e/xIfc/xfd/xcb/xec/xfe/x3cb/xec/x:9e/x50/xF3c/x7b/xe2b/x4a/xR7f/x8b/xcb/x8c/xuCfa/x0d/xEb9/xd2f/xcc/xY50/xMmE2b/x4b/xdd/xD41/x01/xPC2c/x0t:3a/xkHf0/x9e/x?hf7/xmjef/x%*3f/xR2a/xcc/x]Pe/\\30/xaf/x59/x51/x98/xq1f/x0c/x81/xa41/xKfc/xcd/xde/xad/xxTADIY40/x00/x00/xfc/xxd8/xA40/xc1/x31/xc1/x\tcd/x70/xEMIt70/x00/x00/x00/x81/xc9/xa9/x00/x10/x31/xb0/x00/x00/x31/xb0/x00/x00/xsYHp\t00/x00/x00/x39/x7a/xdb/x0a/xff/x00/xff/x00/xff/x00/xDGKb60/x00/x00/x00/x9e/xc1/xec/xea/x00/xBGRs10/x00/x00/x00/xf8/xf8/xIe9/x00/x00/x00/x20/x80/x71/x00/x00/x00/x9c/x40/x00/x00/xRDHI\r00/x00/x00/x\na1/x\n\rGNP98/x'
+	-->
+
+	</pre>
+	</div>
+	<br />
+<div>Enter Passkey:<br />
+<form method="post" action="page12_new.php">
+<input type="password" name="binary"><input type="submit" value="submit">
+</form>
+</div>
+</div>
+</body>
+</html>
